@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#includeContent").load("fileName.html");
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div id="menu" class="top row">
+                <div class="menu-text">
+                    <h1 class="top-text top-title">Our Chat App project</h1>
+                    <p class="top-p-text">Description</p>
+                </div>
+                <div class="menu">
+                    <article class="menu1 column">
+                        <h2 class="column-text">The Authentic</h2>
+                    </article>
+                    <article class="menu2 column">
+                        <h2 class="column-text">The Authentic</h2>
+                    </article>
+                    <article class="menu3 column">
+                        <h2 class="column-text">The Authentic</h2>
+                    </article>
+                    <article class="menu4 column">
+                        <h2 class="column-text">The Authentic</h2>
+                    </article>
+                    <article class="menu5 column">
+                        <i class="fa-solid fa-plus-large"></i>
+                    </article>
+                </div>
+            </div>
+
+            </div>
+
+            <div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="top top-part">
+        <div>
+            <img src="/img-1.png" alt="top-profile image">
+        </div>
+        <div class="title">
+
+            <h1 class="top-text top-title">Our Chat App project</h1>
+            <p class="top-p-text">12 members</p>
+        </div>
+        <div id="showlist">
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-ellipsis-vertical"
+                        style="color: #E5E5E5 !important;"></i> </a></span>
+            </button>
+        </div>
+        <div class="chat chat1">
+            <h2>Michael</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
+        </div>
+        <div>
+            <img src="/img-1.png" alt="top-profile image" class="img-chat">
+
+            <div class="chat chat2">
+                <h2>Michael</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
+            </div>
+        </div>
+
+        <div class="chat chat3">
+            <p>Already did that!</p>
+        </div>
+        <div>
+            <img src="/img-1.png" alt="top-profile image" class="img-chat">
+            <div class="chat chat4" style="background-color: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);">
+                <h2>Michael</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
+            </div>
+        </div>
+        <div class="chat chat5">
+            <img src="/img-1.png" alt="top-profile image" class="img-chatin">
+            <p class="lasp">Lorem ipsum dolor sit amet</p>
+        </div>
+        <form>
+            <input type="text" id="chat-text" name="chat-text" placeholder="Type your text here...">
+        </form>
+    </div>
+
+    <div>
+
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
